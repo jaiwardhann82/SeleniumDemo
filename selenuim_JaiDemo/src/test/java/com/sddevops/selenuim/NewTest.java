@@ -23,7 +23,7 @@ private WebDriver webDriver;
 @Test
 public void BankUserLogin() {
 //Load republic poly website as a new page
-webDriver.navigate().to("http://localhost:8089/TestProjectWeek5/BankLogin.jsp");
+webDriver.navigate().to("http://localhost:8089/TestProjectWeek7/BankLogin.jsp");
 
 webDriver.findElement(By.name("user")).click();
 webDriver.findElement(By.name("user")).sendKeys("jai");
@@ -41,7 +41,7 @@ System.out.println("Title of the page after login is *** : "+webDriver.getTitle(
 @Test
 public void CustomerRegistration() {
 //Load republic poly website as a new page
-webDriver.navigate().to("http://localhost:8089/TestProjectWeek5/BankLogin.jsp");
+webDriver.navigate().to("http://localhost:8089/TestProjectWeek7/BankLogin.jsp");
 
 webDriver.findElement(By.name("user")).click();
 webDriver.findElement(By.name("user")).sendKeys("jai");
@@ -102,7 +102,7 @@ System.out.println("Transaction Status *** : "+webDriver.getTitle());
 @Test
 public void CustomerTransaction() {
 //Load republic poly website as a new page
-webDriver.navigate().to("http://localhost:8089/TestProjectWeek5/BankLogin.jsp");
+webDriver.navigate().to("http://localhost:8089/TestProjectWeek7/BankLogin.jsp");
 
 webDriver.findElement(By.name("user")).click();
 webDriver.findElement(By.name("user")).sendKeys("jai");
